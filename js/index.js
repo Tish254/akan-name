@@ -12,6 +12,5 @@ function changeSection(elemFrom) {
         
         console.log(elemFrom);
         document.getElementById("more").classList.add('display-sec');
-
     }
 }
