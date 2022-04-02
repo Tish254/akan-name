@@ -32,7 +32,7 @@
 							</h2>
 							<p>
 								The Akan are a community in Ghana West Africa. Having a rich naming tradition.
-	
+
 								We help you discover that in a <strong>click!</strong>
 							</p>
 						</div>
@@ -59,11 +59,11 @@
 							</h2>
 							<p>
 								The Akan community in Ghana often names children according to the day of the week they
-								were born. 
-	
+								were born.
+
 								The names given are as follows:
 							</p>
-							
+
 						</div><!-- End more__content-left__top-->
 
 						<div class="more__content-left__bottom">
@@ -78,7 +78,7 @@
 									<li>Kofi</li>
 									<li>Kwame</li>
 								</ul>
-				
+
 							</div>
 
 							<div class="item">
@@ -94,13 +94,13 @@
 									<li>Afua</li>
 									<li>Ama</li>
 								</ul>
-					
+
 							</div>
 						</div> <!-- End more__content-left__bottom-->
 
-						<a href="#" class="generate-more" id="generate-more" onclick="sectionChange('generate-more')">Generate Akan Name</a>
+					<a href="#" class="generate-more" onclick="changeSection('generate-home')">Generate Akan Name</a>
 					</div> <!-- End more__content-left-->
-					
+
 					<div class="more__content-right">
 						<div class="more__content-right__container">
 
@@ -146,9 +146,9 @@
 									</p>
 								</div>
 							</div>
-							
+
 						</div>
-						
+
 					</div>
 				</div><!-- End more__content -->
 			</div>
@@ -159,15 +159,15 @@
 					<h1>GENERATE AKAN NAME</h1>
 					<h2>Steps to getting your Akan Name</h2>
 					<div class="generate__content-steps">
-						<div class="step1"> 
+						<div class="step1">
 							<h2>STEP 1</h2>
 							<label>
 								Enter your Day of Birth:
 							</label>
-							<input type="date" id="date"> 
+							<input type="date" id="date">
 						</div>
-						
-						<div class="step2"> 
+
+						<div class="step2">
 							<h2>STEP 2</h2>
 							<label>
 								Select Your Gender:
@@ -176,16 +176,16 @@
 								<label>
 									Male
 								</label>
-								<input type="radio" value="male" name="gender">
+								<input type="radio" value="male" name="gender" id = "male-radio">
 								<label>
 									Female
 								</label>
-								<input type="radio" value="female" name="gender">
+								<input type="radio" value="female" name="gender" id = "female-radio">
 							</div>
 						</div>
 
 					</div>
-					<a href="#" class="generate-btn">Generate</a>
+					<a href="#" class="generate-btn" id = "generate-akan-btn" onclick = "generateCongratulations()"> Generate </a>
 				</div>
 			</div>
 		</section>
@@ -196,25 +196,25 @@
 						<div class="congratulations__content-left__message">
 							<div class="message">
 								<h1>
-									CONGRATULATIONS! 
+									CONGRATULATIONS!
 								</h1>
-								<p>
+								<p id="generate-message">
 									Your Akan name is Agwabo because you were born on a Tuesday
 								</p>
 							</div>
 						</div>
 						<div class="congratulations__content-left__button">
-							<a href="#">
+							<a href="#" onclick="changeSection('generate-home')">
 								Generate Again
 							</a>
 						</div>
 					</div> <!-- End congratulations__content-left-->
-					
+
 					<div class="congratulations__content-right">
 						<img src="images/home_land.png" alt="A Picture of Africa Home Land">
 					</div>
-					
-				</div> 
+
+				</div>
 
 
 			</div>
@@ -227,7 +227,7 @@
 	</footer>
 
 	<script src="./js/index.js">
-		
+
 	</script>
 
 
