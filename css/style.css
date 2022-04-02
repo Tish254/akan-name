@@ -514,6 +514,7 @@ section.display-sec {
           flex-direction: column;
   position: relative;
   padding: 2em;
+  width: 100%;
 }
 
 .generate__content {
@@ -600,7 +601,7 @@ section.display-sec {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: -2.6em;
+  margin-top: -2.5em;
   font-size: 1.1em;
   font-weight: 800;
   -webkit-box-shadow: var(--box-shadow);
@@ -610,7 +611,7 @@ section.display-sec {
 
 .generate__content .generate__content-steps .step1 label {
   font-weight: 600;
-  margin-top: 1.6em;
+  margin-top: .5em;
 }
 
 .generate__content .generate__content-steps .step1 input {
@@ -664,7 +665,7 @@ section.display-sec {
   width: 5em;
   height: 1.5em;
   text-align: center;
-  margin-top: -2.6em;
+  margin-top: -2.5em;
   color: black;
   font-weight: 800;
   font-size: 1.1em;
@@ -684,7 +685,7 @@ section.display-sec {
 
 .generate__content .generate__content-steps .step2 label {
   font-weight: 600;
-  margin-top: 1.6em;
+  margin-top: .5em;
 }
 
 .generate__content .generate__content-steps .step2 .step4-bottom {
