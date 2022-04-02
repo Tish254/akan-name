@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<div class="title-bar">
-			<h1>Akan<span>Nam</span></h1>
+			<h1> <a href="index.html">Akan<span>Nam</span></a></h1>
 		</div>
 	</header>
 	<main>
@@ -38,8 +38,8 @@
 						</div>
 
 						<div class="home__content-left__bottom">
-							<a href="#generate" class="generate">Generate Akan Name</a>
-							<a href="#more" class="learn">Learn More</a>
+							<a href="#generate" class="generate" onclick="changeSection('generate-home')" id="generate-home">Generate Akan Name</a>
+							<a href="#more" class="learn" id="learn-home" onclick="changeSection('learn-home')">Learn More</a>
 						</div>
 					</div>
 					<div class="home__content-right">
@@ -225,5 +225,11 @@
 			<h3>&copy;Tish<span>Group</span></h3>
 		</div>
 	</footer>
+
+	<script src="./js/index.js">
+		
+	</script>
+
+
 </body>
 </html>

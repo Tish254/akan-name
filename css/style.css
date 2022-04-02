@@ -16,6 +16,19 @@ section {
   display: none;
 }
 
+section.display-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3em;
+}
+
 .title-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +56,14 @@ section {
   font-weight: 600;
 }
 
-.title-bar h1 span {
+.title-bar h1 a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.title-bar h1 a span {
   color: #3a3845;
   font-weight: 900;
 }
@@ -78,19 +98,6 @@ section {
 .credits h3 span {
   color: #3a3845;
   font-weight: 900;
-}
-
-section.display-sec {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 3em;
 }
 
 .container {
@@ -897,7 +904,7 @@ section.display-sec {
     padding: .5em 3.5em;
   }
   .credits {
-    padding: .5em 3.5em;
+    padding: .5em 3.2em;
   }
   .container {
     margin: 3em 3em;
