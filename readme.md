@@ -27,7 +27,7 @@ This names are as Follows:
 
 This Project uses **HTML, CSS, SCSS** and **JavaScript** to create Interactive webpages where users can go and learn more about the *Akan* culture and generate their *Akan* names if they Wish.
 
-Users would be required to enter their **Birth date** and their **Gender** in a HTML form so that their specific *Akan* name can be generate.
+Users would be required to enter their **Birth date** and their **Gender** in a HTML Form so that their specific *Akan* name can be generate.
 
 ## Important Links
    * [Akan Name Githup Pages](https://tish254.github.io/akan-name/)
