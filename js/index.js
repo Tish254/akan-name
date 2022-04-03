@@ -30,6 +30,7 @@ function generateCongratulations () {
   const birthDate = document.getElementById("date").value;
   const radioMale = document.getElementById("male-radio");
   const radioFemale = document.getElementById("female-radio");
+
   let gender = null;
   const dayOfWeek = new Date(birthDate).getDay();
 
@@ -41,9 +42,8 @@ function generateCongratulations () {
 
     gender = radioMale.id;
     let name = maleAkan[dayOfWeek];
-    congratsMessageTag.innerHTML = `Congrutulations Your Akan name is <strong style="color: green; font-size: 1.2em;">${name}</strong>  beacause you are a gentleman born on <strong style="color: green; font-size: 1.2em;" >${nameOfWeek}</strong>`;
+    congratsMessageTag.innerHTML = `Congratulations Your Akan name is <strong style="color: yellow; font-size: 1.4em;">${name}</strong>  because you are a gentleman born on <strong style="color: yellow; font-size: 1.2em;">${nameOfWeek}</strong>.`;
     changeSection('generate-congrts');
-
 
 
   }  else {
@@ -51,11 +51,9 @@ function generateCongratulations () {
     gender = radioFemale.id;
     let name = femaleAkan[dayOfWeek];
 
-    congratsMessageTag.innerHTML = `Congrutulations Your Akan name is <strong sytle="color: green; font-size: 1.2em; ">${name}<strong> beacause you are a lady born on <strong style="color: green; font-size: 1.2em;">${nameOfWeek}</strong>`;
+    congratsMessageTag.innerHTML =  `Congratulations Your Akan name is <strong style="color: yellow; font-size: 1.4em;">${name}</strong>  because you are a lady born on <strong style="color: yellow; font-size: 1.2em;">${nameOfWeek}</strong>.`;
 
     changeSection('generate-congrts');
-
-
 
 
   }
