@@ -4,13 +4,11 @@ function changeSection(elemFrom, birthDate=null, maleFemale=null, errorDiv=null)
 
     if (elemFrom == 'generate-home') {
 
-        console.log(elemFrom);
         document.getElementById('generate').classList.add('display-sec');
 
 
     } else if  (elemFrom == 'learn-home') {
 
-        console.log(elemFrom);
         document.getElementById("more").classList.add('display-sec');
 
     } else if (elemFrom == 'generate-congrts') {
@@ -34,19 +32,19 @@ let maleAkan = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 let akanDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
+
 let errorDiv =  null;
 
-
 function generateCongratulations () {
-
+  
   
   const birthDate = document.getElementById("date");
   birthDateValue = birthDate.value;
-
+  
   const radioMale = document.getElementById("male-radio");
-
+  
   const radioFemale = document.getElementById("female-radio");
-
+  
   
   let gender = null;
   
